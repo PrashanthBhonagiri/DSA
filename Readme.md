@@ -4,4 +4,6 @@
 
  g++ -std=c++14  -o a UVA00272.cpp && ./a < input.txt
 
- g++ -std=c++14  -o a UVA00272.cpp && ./a < input.txt >output.txt
+ g++ -std=c++14  -o a UVA00272.cpp && ./a < input.txt > output.txt
+
+ diff answer.txt output.txt 
